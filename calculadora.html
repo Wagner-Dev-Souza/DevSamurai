@@ -1,0 +1,25 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script>
+        function soma(a, b) {
+            return a + b
+        }
+        function subtracao(a, b) {
+            return a - b
+        }
+
+        var n1 = Number(prompt("Número 1"))
+        var n2 = Number(prompt("Número 2"))
+        var op = prompt("Operação")
+
+        var resultado
+
+        if (op == "+") {
+            resultado = soma(n1, n2)
+        } else if (op == "-") {
+            resultado = subtracao(n1, n2)
+        }
+
+        alert(resultado)
+    </script>
+</html>
