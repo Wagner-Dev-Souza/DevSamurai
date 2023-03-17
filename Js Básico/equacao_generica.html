@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha(){document.write("<br><br>")}
+	function mostra(texto){document.write(texto), pulaLinha()}
+
+    alert("Essa ferramenta resolve equações do 2º grau no formato ax² + bx + c = 0, que possuem raízes reais")
+
+ var pA = parseInt(prompt("Qual o valor do coeficiente *a*?"));
+
+  var pB = parseInt(prompt("Qual o valor do coeficiente *b*?"));
+
+   var pC = parseInt(prompt("Qual o valor do coeficiente *c*?"));
+
+    mostra("os valores inseridos para a equação no formato ax² +bx + c = 0, foram:");
+
+    mostra("a =" + pA);
+
+    mostra("b =" + pB);
+
+    mostra("c =" + pC);
+
+    mostra("As raízes da equação, são:")
+
+    mostra("x'=" + (-pB + Math.sqrt(pB*pB + (-4*pA*pC)))/2*pA);
+
+    mostra("x''=" + (-pB +(- Math.sqrt(pB*pB + (-4*pA*pC))))/2*pA);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
